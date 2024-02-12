@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+body {
+    text-align: center;
+    background: rgb(6, 190, 175);
+}
+.gridContainer {
+    display: flex;
+    justify-content: start;
+    gap: 110px;
+}
+.grid {
+    height: 800px;
+    width: 800px;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+}
+.line {
+    display: flex;
+    justify-content: center;
+    border: none;
+    flex-grow: 1;
+}
+.columns {
+    flex-grow: 1;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    margin-left: 300px;
+}
+#size,
+#submit {
+    margin-bottom: 24px;
+    border-radius: 8px;
+    border: none;
+    padding: 4px;
+}
+#black,
+#white,
+#rainbow,
+#eraser {
+    padding: 12px;
+    border-radius: 20px;
+}
+#black {
+    background-color: black;
+    color: white;
+}
+#rainbow {
+    background-color: blueviolet;
+    color: white;
+}
