@@ -45,7 +45,8 @@ body {
 #black,
 #white,
 #rainbow,
-#eraser {
+#eraser,
+#clear {
     padding: 12px;
     border-radius: 20px;
 }
@@ -56,4 +57,7 @@ body {
 #rainbow {
     background-color: blueviolet;
     color: white;
+}
+#eraser {
+    background-color: rgb(240, 105, 173);
 }

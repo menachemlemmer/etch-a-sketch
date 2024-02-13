@@ -6,6 +6,11 @@ submit.addEventListener('click', () => {
     buildGrid(size);
 })
 
+document.querySelector('#clear').addEventListener('click', () => {
+    let size = input.value;
+    buildGrid(size);
+})
+
 let color = "black";
 
 function getRandomColor() {
